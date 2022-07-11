@@ -59,7 +59,7 @@
     padding-left: 1em;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .navbarItems{
         display: none;
     }
@@ -100,4 +100,4 @@
         color: white;
         font-weight: bold;
     }
-  }
+  } */
