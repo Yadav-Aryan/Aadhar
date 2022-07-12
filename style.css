@@ -63,41 +63,23 @@
     .navbarItems{
         display: none;
     }
-    .navbar-footer{
-        display: block;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        height: 3rem;
-        padding: 0.2rem;
-        background-color: rgb(148, 148, 248);
-    }
     
-    .navbarContainer-footer{
-        display: flex;
-        padding: 0.2rem;
-        width: 75%;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .navbarItems-footer{
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        flex: 50%;
-    }
-    
-    .navbarItems-footer li{
-        list-style: none;
-        padding: 1em;
-    }
-    
-    .navbarItems-footer li a{
-        display: block;
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
   }
+
+.homeMain{
+    overflow: hidden;
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeBack{
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
